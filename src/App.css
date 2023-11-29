@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles.css */
+/* Custom scrollbar styles applied globally */
+/* For WebKit based browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4CAF50; /* Green thumb */
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light grey track */
+}
